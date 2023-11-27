@@ -28,11 +28,11 @@ namespace Proyecto1.Models
 
         [Required(ErrorMessage = "La tarifa por hora es requerida")]
         [Display(Name = "Tarifa por hora")]
-        public float TarifaPorHora { get; set; }
+        public double TarifaPorHora { get; set; }
 
         [Required(ErrorMessage = "La tarifa por media hora es requerida")]
         [Display(Name = "Tarifa por media hora")]
-        public float TarifaPorMediaHora { get; set; }
+        public double TarifaPorMediaHora { get; set; }
 
 	}
 }

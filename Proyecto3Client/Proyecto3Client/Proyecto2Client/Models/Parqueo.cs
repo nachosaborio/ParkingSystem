@@ -23,6 +23,6 @@ namespace Proyecto1.Models
         [Required(ErrorMessage = "La hora de cierre es requerida")]
         [Display(Name = "Hora de cierre")]
         [DataType(DataType.Time)]
-        public DateTime HoraCierrre { get; set; }
+        public DateTime HoraCierre { get; set; }
     }
 }

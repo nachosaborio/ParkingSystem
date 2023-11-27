@@ -4,8 +4,6 @@ namespace Proyecto1.Models
 {
     public class Empleado
     {
-        [Required(ErrorMessage = "El número de empleado es requerido")]
-        [Display(Name = "Número de empleado")]
         public int Id { get; set; }
 
         [Required(ErrorMessage = "El parqueo es requerido")]
