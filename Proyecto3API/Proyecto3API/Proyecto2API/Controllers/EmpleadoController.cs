@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Proyecto1.Models;
+using Proyecto3API;
 
 namespace Proyecto2API.Controllers
 {
@@ -7,24 +8,11 @@ namespace Proyecto2API.Controllers
     [ApiController]
     public class EmpleadoController : ControllerBase
     {
-        public EmpleadoController()
-        {
-            Empleado empleado = new Empleado
-            {
-                Id = 1,
-                Parqueo = 1,
-                FechaIngreso =  new DateTime(2000,05,10),
-                Nombre = "Amtonio",
-                Apellidos = "López Mora",
-                FechaDeNacimiento = new DateTime(1980,03,21),
-                Cedula = 100010001,
-                Direccion = "Zapote, San José",
-                Email = "antonio@email.com",
-                Telefono = 88112233,
-                PersonaDeContacto = "Antonia López Mora"
-            };
+        private Contexto _miBD;
 
-            AddEmpleado(empleado);
+        public EmpleadoController(Contexto miBD)
+        {
+            _miBD = miBD;
         }
 
         [HttpPost("AddEmpleado")]
@@ -37,7 +25,7 @@ namespace Proyecto2API.Controllers
         [HttpGet("GetAllEmpleados")]
         public ActionResult<IEnumerable<Empleado>> GetAllEmpleados()
         {
-            return Ok(Cache.GetAllEmpleados());
+            return Ok(_miBD.Empleados.ToList());
         }
 
         [HttpGet("GetEmpleadoXId/{id}")]

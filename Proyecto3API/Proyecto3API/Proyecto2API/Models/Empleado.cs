@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Proyecto1.Models
 {
@@ -6,6 +7,8 @@ namespace Proyecto1.Models
     {
         [Required(ErrorMessage = "El número de empleado es requerido")]
         [Display(Name = "Número de empleado")]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Key]
         public int Id { get; set; }
 
         [Required(ErrorMessage = "El parqueo es requerido")]
