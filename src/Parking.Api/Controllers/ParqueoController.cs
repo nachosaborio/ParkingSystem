@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Parking.Api.Models;
+using Parking.Shared.Models;
 using Parking.Api;
 
 namespace Parking.Api.Controllers

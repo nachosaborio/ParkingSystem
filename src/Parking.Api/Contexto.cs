@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Parking.Api.Models;
+using Parking.Shared.Models;
 
 namespace Parking.Api
 {

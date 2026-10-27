@@ -10,5 +10,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Parking.Shared\Parking.Shared.csproj" />
+  </ItemGroup>
 
 </Project>

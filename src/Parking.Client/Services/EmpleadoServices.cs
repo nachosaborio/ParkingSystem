@@ -1,5 +1,5 @@
 ﻿using Newtonsoft.Json;
-using Parking.Client.Models;
+using Parking.Shared.Models;
 using Parking.Client.Interfaces;
 using System.Text;
 using System.Text.Json.Serialization;

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Parking.Client.Models;
+using Parking.Shared.Models;
 using Parking.Client.Interfaces;
 
 namespace Parking.Client.Controllers

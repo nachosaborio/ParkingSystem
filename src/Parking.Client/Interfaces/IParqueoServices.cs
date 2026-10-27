@@ -1,4 +1,4 @@
-﻿using Parking.Client.Models;
+﻿using Parking.Shared.Models;
 
 namespace Parking.Client.Interfaces
 {

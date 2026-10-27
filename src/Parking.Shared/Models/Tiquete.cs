@@ -1,10 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Xml.Linq;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Parking.Client.Models
+namespace Parking.Shared.Models
 {
     public class Tiquete
     {
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Key]
         public int Id { get; set; }
 
         [Required(ErrorMessage = "El parqueo es requerido")]
