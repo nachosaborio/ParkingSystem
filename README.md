@@ -1,5 +1,12 @@
 # Parking System — REST API + MVC Client
 
+![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?logo=dotnet&logoColor=white)
+![EF Core](https://img.shields.io/badge/Entity%20Framework%20Core-512BD4?logo=dotnet&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white)
+![REST API](https://img.shields.io/badge/API-REST-009688)
+![Architecture](https://img.shields.io/badge/architecture-API%20%2B%20MVC%20Client%20%2B%20DI-2b6cb0)
+
 A parking-lot management system built as **two decoupled ASP.NET Core applications**: a **REST API** backed by Entity Framework Core / SQL Server, and a separate **ASP.NET Core MVC web client** that consumes it over HTTP. Full CRUD for parking lots, tickets, and employees.
 
 Originally the final project ("Proyecto 3") for the Web Programming course of the Informatics Engineering degree at **Universidad Estatal a Distancia de Costa Rica (UNED)**.
