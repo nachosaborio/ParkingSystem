@@ -406,3 +406,8 @@ FodyWeavers.xsd
 
 # LibMan (restaurado en build)
 src/Parking.Client/wwwroot/lib/
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
