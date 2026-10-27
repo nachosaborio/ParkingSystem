@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Proyecto1.Models;
+using Parking.Api.Models;
 
-namespace Proyecto3API
+namespace Parking.Api
 {
     public partial class Contexto : DbContext
     {

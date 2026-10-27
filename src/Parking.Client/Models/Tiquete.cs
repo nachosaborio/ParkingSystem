@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Xml.Linq;
 
-namespace Proyecto1.Models
+namespace Parking.Client.Models
 {
     public class Tiquete
     {

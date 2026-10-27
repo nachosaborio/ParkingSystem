@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Proyecto1.Models;
-using Proyecto2Client.Interfaces;
+using Parking.Client.Models;
+using Parking.Client.Interfaces;
 
-namespace Proyecto1.Controllers
+namespace Parking.Client.Controllers
 {
     public class ParqueoController : Controller
     {

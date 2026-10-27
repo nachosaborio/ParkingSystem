@@ -1,10 +1,10 @@
 ﻿using Newtonsoft.Json;
-using Proyecto1.Models;
-using Proyecto2Client.Interfaces;
+using Parking.Client.Models;
+using Parking.Client.Interfaces;
 using System.Text;
 using System.Text.Json.Serialization;
 
-namespace Proyecto2Client.Services
+namespace Parking.Client.Services
 {
     public class TiqueteServices : ITiqueteServices { 
 

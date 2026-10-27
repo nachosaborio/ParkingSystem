@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Proyecto1.Models;
-using Proyecto3API;
+using Parking.Api.Models;
+using Parking.Api;
 
-namespace Proyecto2API.Controllers
+namespace Parking.Api.Controllers
 {
     [Route("api/Tiquete")]
     [ApiController]

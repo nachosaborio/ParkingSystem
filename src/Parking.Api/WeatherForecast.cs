@@ -1,4 +1,4 @@
-namespace Proyecto2API
+namespace Parking.Api
 {
     public class WeatherForecast
     {

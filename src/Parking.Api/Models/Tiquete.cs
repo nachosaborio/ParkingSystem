@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Xml.Linq;
 
-namespace Proyecto1.Models
+namespace Parking.Api.Models
 {
     public class Tiquete
     {

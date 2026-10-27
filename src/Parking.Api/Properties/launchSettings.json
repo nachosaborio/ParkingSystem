@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "Proyecto2API": {
+    "Parking.Api": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

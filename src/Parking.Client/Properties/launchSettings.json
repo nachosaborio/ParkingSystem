@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "Proyecto2Client": {
+    "Parking.Client": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Proyecto1.Models;
+using Parking.Client.Models;
 using System.Diagnostics;
 
-namespace Proyecto1.Controllers
+namespace Parking.Client.Controllers
 {
     public class HomeController : Controller
     {

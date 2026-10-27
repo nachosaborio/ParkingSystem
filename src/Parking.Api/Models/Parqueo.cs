@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Proyecto1.Models
+namespace Parking.Api.Models
 {
     public class Parqueo
     {

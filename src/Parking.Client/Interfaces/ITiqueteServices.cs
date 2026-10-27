@@ -1,6 +1,6 @@
-﻿using Proyecto1.Models;
+﻿using Parking.Client.Models;
 
-namespace Proyecto2Client.Interfaces
+namespace Parking.Client.Interfaces
 {
     public interface ITiqueteServices
     {

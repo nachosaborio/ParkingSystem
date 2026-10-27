@@ -1,5 +1,5 @@
-using Proyecto2Client.Interfaces;
-using Proyecto2Client.Services;
+using Parking.Client.Interfaces;
+using Parking.Client.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

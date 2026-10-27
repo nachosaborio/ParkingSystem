@@ -1,4 +1,4 @@
-namespace Proyecto1.Models
+namespace Parking.Api.Models
 {
     public class ErrorViewModel
     {
