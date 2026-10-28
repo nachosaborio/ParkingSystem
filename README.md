@@ -1,3 +1,5 @@
+![CI](https://github.com/nachosaborio/ParkingSystem/actions/workflows/ci.yml/badge.svg)
+
 # Parking System
 
 ![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
